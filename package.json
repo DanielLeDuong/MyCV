@@ -1,7 +1,7 @@
 {
   "name": "cv",
   "private": true,
-  "homepage": "https://danielleduong.github.io/leduonghung/",
+  "homepage": "https://danielleduong.github.io/myCV/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -19,7 +19,8 @@
     "@mui/material": "^6.3.1",
     "gh-pages": "^6.3.0",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "swiper": "^11.2.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.17.0",

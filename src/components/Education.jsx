@@ -12,7 +12,7 @@ const Education = ({mode}) => {
           display: 'flex',
           alignItems: 'center',
           gap: 2,
-          color: 'primary.main',
+          
           fontWeight: 'bold',
           color:() => mode === 'dark' ? 'white' : '#00AE72'
         
@@ -45,7 +45,7 @@ const Education = ({mode}) => {
                 sx={{ 
                   mb: 2,
                   fontWeight: 'bold',
-                  color: 'primary.dark',
+                  
                   color:() => mode === 'dark' ? '#2c3e50' : '#00AE72'
                 }}
               >
@@ -63,7 +63,7 @@ const Education = ({mode}) => {
               <Typography 
                 variant="subtitle1" 
                 sx={{
-                  color: 'primary.main',
+                  
                   fontWeight: 'medium',
                   mb: 3,
                   color:() => mode === 'dark' ? '#2c3e50' : '#00AE72'
@@ -99,7 +99,7 @@ const Education = ({mode}) => {
                 sx={{ 
                   mb: 2,
                   fontWeight: 'bold',
-                  color: 'primary.dark',
+                  
                   color:() => mode === 'dark' ? '#2c3e50' : '#00AE72'
                 }}
               >
@@ -117,7 +117,7 @@ const Education = ({mode}) => {
               <Typography 
                 variant="subtitle1" 
                 sx={{
-                  color: 'primary.main',
+                  
                   fontWeight: 'medium',
                   mb: 3,
                   color:() => mode === 'dark' ? '#2c3e50' : '#00AE72'

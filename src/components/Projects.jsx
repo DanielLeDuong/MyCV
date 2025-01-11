@@ -55,21 +55,31 @@ const Projects = () => {
             fullScreen={fullScreen}
             open={open}
             onClose={handleClose}
-            maxWidth="lg"
+            maxWidth="xl"
+            PaperProps={{
+              sx: {
+                width: '70%',
+                height: '70%',
+                maxWidth: 'none',
+                margin: 'auto'
+              }
+            }}
           >
-            <Box sx={{ position: 'relative' }}>
+            <Box sx={{ position: 'relative', width: '100%', height: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
               <IconButton
-                sx={{ position: 'absolute', right: 8, top: 8, color: 'white' }}
+                sx={{ position: 'absolute', right: 8, top: 8, color: 'white', zIndex: 1 }}
                 onClick={handleClose}
               >
                 <CloseIcon />
               </IconButton>
               <Box
                 component="iframe"
-                src="https://www.youtube.com/embed/your-video-id"
-                width="100%"
-                height="600px"
-                sx={{ border: 0 }}
+                src="https://www.youtube.com/embed/_6ECIK22UyY"
+                sx={{
+                  width: '100%',
+                  height: '100%',
+                  border: 0
+                }}
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
               />
